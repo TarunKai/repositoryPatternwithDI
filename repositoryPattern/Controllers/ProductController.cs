@@ -62,7 +62,7 @@ namespace repositoryPattern.Controllers
 				pcm.sNo = x.sNo;
 				pcm.ProductName = x.ProductName;
 				pcm.ProductDetails = x.ProductDetails;
-				pcm.ProductType = x.ProductType;
+				pcm.ProductType=x.ProductType;
 				pcm.Price = x.Price;
 				li.Add(pcm);
 
